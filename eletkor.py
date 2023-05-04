@@ -10,6 +10,7 @@ else:
     else:
         print("Nem vagy tanköteles.")
 
+#############################################
 
 import random
 
@@ -28,6 +29,7 @@ for i in range(50):
 print(f'A Számok listája: {szamok_}')
 print(f'Ennyi paratlan szam van: {páratlan(szamok_)}')
 
+################################################
 
 class Superheroes:
     def __init__(self, valodi_nev, nev, univerzum):
