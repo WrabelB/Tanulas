@@ -57,5 +57,3 @@ for i in range(3):
 
 for i in adatok:
     print(f"{i.nev} valódi neve {i.valodi_nev} a {i.univerzumneve()} univerzum tagja")
-
-ANYUKAD
