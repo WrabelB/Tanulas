@@ -57,3 +57,19 @@ for i in range(3):
 
 for i in adatok:
     print(f"{i.nev} valódi neve {i.valodi_nev} a {i.univerzumneve()} univerzum tagja")
+
+
+def nevelo(szó):
+    maganhangzok ='aáeéiíoóöőuúüű'
+    if szó[0].lower() in maganhangzok:
+        return 'az'
+    else:
+        return 'a'
+
+def jelzo():
+    return random.choice(['piros', 'nagy', 'könnyed'])
+
+
+for i in range(3):
+    fonev = input('Adj meg 3 fonevet: ')
+    print(nevelo(fonev).capitalize, fonev, jelzo())
